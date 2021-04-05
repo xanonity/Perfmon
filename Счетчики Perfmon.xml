@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="UTF-16"?>
+<DataCollectorSet>
+	<Status>0</Status>
+	<Duration>0</Duration>
+	<Description>
+	</Description>
+	<DescriptionUnresolved>
+	</DescriptionUnresolved>
+	<DisplayName>
+	</DisplayName>
+	<DisplayNameUnresolved>
+	</DisplayNameUnresolved>
+	<SchedulesEnabled>-1</SchedulesEnabled>
+	<LatestOutputLocation>C:\PerfLogs\Admin\Common1C\KUZI_202103</LatestOutputLocation>
+	<Name>Common1C</Name>
+	<OutputLocation>C:\PerfLogs\Admin\Common1C\KUZI_202103</OutputLocation>
+	<RootPath>%systemdrive%\PerfLogs\Admin\Common1C</RootPath>
+	<Segment>0</Segment>
+	<SegmentMaxDuration>0</SegmentMaxDuration>
+	<SegmentMaxSize>0</SegmentMaxSize>
+	<SerialNumber>8</SerialNumber>
+	<Server>
+	</Server>
+	<Subdirectory>
+	</Subdirectory>
+	<SubdirectoryFormat>3</SubdirectoryFormat>
+	<SubdirectoryFormatPattern>yyyyMM</SubdirectoryFormatPattern>
+	<Task>
+	</Task>
+	<TaskRunAsSelf>0</TaskRunAsSelf>
+	<TaskArguments>
+	</TaskArguments>
+	<TaskUserTextArguments>
+	</TaskUserTextArguments>
+	<UserAccount>СИСТЕМА</UserAccount>
+	<Security>O:BAG:DUD:AI(A;;FA;;;SY)(A;;FA;;;BA)(A;;0x1200a9;;;LU)(A;;0x1301ff;;;S-1-5-80-2661322625-712705077-2999183737-3043590567-590698655)(A;ID;0x1f019f;;;BA)(A;ID;0x1f019f;;;SY)(A;ID;FR;;;AU)(A;ID;FR;;;LS)(A;ID;FR;;;NS)(A;ID;FA;;;BA)</Security>
+	<StopOnCompletion>0</StopOnCompletion>
+	<PerformanceCounterDataCollector>
+		<DataCollectorType>0</DataCollectorType>
+		<Name>Processes</Name>
+		<FileName>Processes</FileName>
+		<FileNameFormat>1</FileNameFormat>
+		<FileNameFormatPattern>yyyyMMdd</FileNameFormatPattern>
+		<LogAppend>-1</LogAppend>
+		<LogCircular>0</LogCircular>
+		<LogOverwrite>0</LogOverwrite>
+		<LatestOutputLocation>C:\PerfLogs\Admin\Common1C\KUZI_202103\Processes20210309.blg</LatestOutputLocation>
+		<DataSourceName>
+		</DataSourceName>
+		<SampleInterval>5</SampleInterval>
+		<SegmentMaxRecords>0</SegmentMaxRecords>
+		<LogFileFormat>3</LogFileFormat>
+		<Counter>\Process(1cv8*)\% Processor Time</Counter>
+		<Counter>\Process(ragent*)\% Processor Time</Counter>
+		<Counter>\Process(rmngr*)\% Processor Time</Counter>
+		<Counter>\Process(rphost*)\% Processor Time</Counter>
+		<Counter>\Process(1cv8*)\Virtual Bytes</Counter>
+		<Counter>\Process(ragent*)\Virtual Bytes</Counter>
+		<Counter>\Process(rmngr*)\Virtual Bytes</Counter>
+		<Counter>\Process(rphost*)\Virtual Bytes</Counter>
+		<Counter>\Process(1cv8*)\Private Bytes</Counter>
+		<Counter>\Process(ragent*)\Private Bytes</Counter>
+		<Counter>\Process(rmngr*)\Private Bytes</Counter>
+		<Counter>\Process(rphost*)\Private Bytes</Counter>
+	</PerformanceCounterDataCollector>
+	<PerformanceCounterDataCollector>
+		<DataCollectorType>0</DataCollectorType>
+		<Name>Hardware</Name>
+		<FileName>Hardware</FileName>
+		<FileNameFormat>1</FileNameFormat>
+		<FileNameFormatPattern>yyyyMMdd</FileNameFormatPattern>
+		<LogAppend>-1</LogAppend>
+		<LogCircular>0</LogCircular>
+		<LogOverwrite>0</LogOverwrite>
+		<LatestOutputLocation>C:\PerfLogs\Admin\Common1C\KUZI_202103\SQL0690309.blg</LatestOutputLocation>
+		<DataSourceName>
+		</DataSourceName>
+		<SampleInterval>5</SampleInterval>
+		<SegmentMaxRecords>0</SegmentMaxRecords>
+		<LogFileFormat>3</LogFileFormat>
+		<Counter>\Memory\Available MBytes</Counter>
+		<Counter>\Memory\Pages/sec</Counter>
+		<Counter>\Processor(_Total)\% Processor Time</Counter>
+		<Counter>\Network Interface(*)\Bytes Total/sec</Counter>
+		<Counter>\System\Processor Queue Length</Counter>
+		<Counter>\Paging File(_Total)\% Usage</Counter>
+		<Counter>\LogicalDisk(*)\% Disk Time</Counter>
+		<Counter>\LogicalDisk(*)\% Disk Write Time</Counter>
+		<Counter>\LogicalDisk(*)\% Disk Read Time</Counter>
+		<Counter>\LogicalDisk(*)\% Free Space</Counter>
+		<Counter>\LogicalDisk(*)\% Idle Time</Counter>
+		<Counter>\PhysicalDisk(*)\% Disk Time</Counter>
+		<Counter>\PhysicalDisk(*)\% Disk Write Time</Counter>
+		<Counter>\PhysicalDisk(*)\% Disk Read Time</Counter>
+		<Counter>\PhysicalDisk(*)\Avg. Disk sec/Write</Counter>
+		<Counter>\PhysicalDisk(*)\Avg. Disk sec/Read</Counter>
+		<Counter>\PhysicalDisk(*)\Avg. Disk Queue Length</Counter>
+		<Counter>\PhysicalDisk(*)\Avg. Disk sec/Transfer</Counter>
+	</PerformanceCounterDataCollector>
+	<PerformanceCounterDataCollector>
+		<DataCollectorType>0</DataCollectorType>
+		<Name>SQL</Name>
+		<FileName>SQL</FileName>
+		<FileNameFormat>1</FileNameFormat>
+		<FileNameFormatPattern>DDDMMdd</FileNameFormatPattern>
+		<LogAppend>0</LogAppend>
+		<LogCircular>0</LogCircular>
+		<LogOverwrite>0</LogOverwrite>
+		<LatestOutputLocation>C:\PerfLogs\Admin\Common1C\KUZI_202103\Hardware20210309.blg</LatestOutputLocation>
+		<DataSourceName>
+		</DataSourceName>
+		<SampleInterval>5</SampleInterval>
+		<SegmentMaxRecords>0</SegmentMaxRecords>
+		<LogFileFormat>3</LogFileFormat>
+		<Counter>\SQLServer:Access Methods\Full Scans/sec</Counter>
+		<Counter>\SQLServer:Buffer Manager\Buffer cache hit ratio</Counter>
+		<Counter>\SQLServer:Buffer Manager\Free list stalls/sec</Counter>
+		<Counter>\SQLServer:Buffer Manager\Lazy writes/sec</Counter>
+		<Counter>\SQLServer:Buffer Manager\Page life expectancy</Counter>
+		<Counter>\SQLServer:Buffer Node(*)\Page life expectancy</Counter>
+		<Counter>\SQLServer:Databases(*)\Active Transactions</Counter>
+		<Counter>\SQLServer:Databases(_Total)\Transactions/sec</Counter>
+		<Counter>\SQLServer:General Statistics\Active Temp Tables</Counter>
+		<Counter>\SQLServer:General Statistics\Transactions</Counter>
+		<Counter>\SQLServer:Locks(_Total)\Lock Wait Time (ms)</Counter>
+		<Counter>\SQLServer:Locks(_Total)\Lock Requests/sec</Counter>
+		<Counter>\SQLServer:Locks(_Total)\Lock Timeouts/sec</Counter>
+		<Counter>\SQLServer:Locks(_Total)\Lock Timeouts (timeout &gt; 0)/sec</Counter>
+		<Counter>\SQLServer:Locks(_Total)\Average Wait Time (ms)</Counter>
+		<Counter>\SQLServer:Locks(_Total)\Lock Waits/sec</Counter>
+		<Counter>\SQLServer:Locks(_Total)\Number of Deadlocks/sec</Counter>
+		<Counter>\SQLServer:Memory Manager\Memory Grants Outstanding</Counter>
+		<Counter>\SQLServer:Wait Statistics(*)\Lock waits</Counter>
+		<Counter>\SQLServer:Wait Statistics(*)\Log buffer waits</Counter>
+		<Counter>\SQLServer:Wait Statistics(*)\Log write waits</Counter>
+		<Counter>\SQLServer:Wait Statistics(*)\Network IO waits</Counter>
+		<Counter>\SQLServer:Wait Statistics(*)\Non-Page latch waits</Counter>
+		<Counter>\SQLServer:Wait Statistics(*)\Page IO latch waits</Counter>
+		<Counter>\SQLServer:Wait Statistics(*)\Page latch waits</Counter>
+		<Counter>\SQLServer:Buffer Manager\Checkpoint pages/sec</Counter>
+		<Counter>\SQLServer:Buffer Manager\Page writes/sec</Counter>
+		<Counter>\SQLServer:Buffer Manager\Page reads/sec</Counter>
+		<Counter>\SQLServer:General Statistics\User Connections</Counter>
+		<Counter>\SQLServer:Plan Cache(_Total)\Cache Hit Ratio</Counter>
+		<Counter>\SQLServer:SQL Statistics\SQL Compilations/sec</Counter>
+		<Counter>\SQLServer:SQL Statistics\Batch Requests/sec</Counter>
+		<Counter>\SQLServer:SQL Statistics\SQL Re-Compilations/sec</Counter>
+		<Counter>\SQLServer:Transactions\Longest Transaction Running Time</Counter>
+		<Counter>\SQLServer:Transactions\Free Space in tempdb (KB)</Counter>
+	</PerformanceCounterDataCollector>
+	<DataManager>
+		<Enabled>0</Enabled>
+		<CheckBeforeRunning>0</CheckBeforeRunning>
+		<MinFreeDisk>0</MinFreeDisk>
+		<MaxSize>0</MaxSize>
+		<MaxFolderCount>0</MaxFolderCount>
+		<ResourcePolicy>0</ResourcePolicy>
+		<ReportFileName>report.html</ReportFileName>
+		<RuleTargetFileName>report.xml</RuleTargetFileName>
+		<EventsFileName>
+		</EventsFileName>
+	</DataManager>
+</DataCollectorSet>
